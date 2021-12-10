@@ -190,7 +190,7 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
-        st.image("images/ChicagoBiCycleSharing.PNG")
+        st.image("images/ChicagoBiCycleSharing.png")
 
     with text_col:
         st.markdown("[Bicycle Sharing in Chicago](https://public.tableau.com/app/profile/umeshjn/viz/ChicagoBicycleSharing/ChicagoBiCycleSharing)")
