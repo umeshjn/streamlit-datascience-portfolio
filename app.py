@@ -167,7 +167,7 @@ st.markdown("""
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
-        st.image("images/GunViolence.PNG")
+        st.image("images/GunViolence.png")
 
     with text_col:
         st.markdown("[Gun Violence in America](https://public.tableau.com/app/profile/umeshjn/viz/GunViolenceinAmerica_0/GunViolence)")
