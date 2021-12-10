@@ -203,7 +203,7 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
-        st.image("images/NobelPrizes.PNG")
+        st.image("images/NobelPrizes.png")
 
     with text_col:
         st.markdown("[Nobel Laureates 1901-2016](https://public.tableau.com/app/profile/umeshjn/viz/Nobel_15/NobelPrizes)")
@@ -214,7 +214,7 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
-        st.image("images/NyCityAirbnbLIsting.PNG")
+        st.image("images/NyCityAirbnbLIsting.png")
 
     with text_col:
         st.markdown("[Airbnb Listings in NewYork City](https://public.tableau.com/app/profile/umeshjn/viz/AirbnbNewYorkCityListings_16316414938610/NyCityAirbnbLIsting)")
@@ -226,7 +226,7 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
-        st.image("images/AfricanPopulation.PNG")
+        st.image("images/AfricanPopulation.png")
 
     with text_col:
         st.markdown("[African Population](https://public.tableau.com/app/profile/umeshjn/viz/AfricanPopulation2021/Dashboard1)")
