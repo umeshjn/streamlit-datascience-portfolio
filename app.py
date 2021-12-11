@@ -129,7 +129,7 @@ with st.container():
         st.image("images/CoffeeCan.PNG")
 
     with text_col:
-        st.markdown("[Coffee Can Investing]()")
+        st.markdown("[Coffee Can Investing](https://share.streamlit.io/umeshjn/streamlit-coffeecaninvesting/main/app.py)")
         st.write("""
          … the coffee can portfolio is designed to protect you against yourself—the obsession with checking stock prices
         """)
@@ -140,7 +140,7 @@ with st.container():
         st.image("images/dailycovid.PNG")
 
     with text_col:
-        st.markdown("[Daily Covid Numbers in USA]()")
+        st.markdown("[Daily Covid Numbers in USA](https://share.streamlit.io/umeshjn/streamlit-usa-dailycovid19/main/app.py)")
         st.write("""
          Covid-19 - the virus which brough the all powerful humans to their knees since last two years, it has wrecked havoc like never seen before and devasted the individuals, families, states, countries and the world as a whole.
         """)
@@ -151,7 +151,7 @@ with st.container():
         st.image("images/compounding.PNG")
 
     with text_col:
-        st.markdown("[Power of Compounding]()")
+        st.markdown("[Power of Compounding](https://share.streamlit.io/umeshjn/streamlit-powerofcompounding/main/app.py)")
         st.write("""
         Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
         """)    
