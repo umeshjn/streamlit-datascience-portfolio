@@ -156,14 +156,24 @@ with st.container():
         Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
         """)    
 
-st.markdown("### Tableau Data Visualization Public Portfolio")
+st.markdown("### Data Visualizations (Tableau & R)")
 st.markdown("""
     Tableau helps is presenting the data to the end customers through data visualizations and dashboards.
     Working using tableau is amazing experience and the ability it brings to the table for data presentation through visualizations is very nice.
     Tableau has changed the field of Data Visualization Dashboarding since last many years.
 """)
 
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/drugoverdosedeathrates.PNG")
 
+    with text_col:
+        st.markdown("[Drug Overdose Deaths in USA 2014-2019]()")
+        st.write("""
+        Drug Overdose is one of the most biggest health concerns in America and this visualization gives you the view of Drug Overdose Death Rates 2014-2019. 
+        """)
+        
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
