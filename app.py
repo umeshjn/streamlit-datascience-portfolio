@@ -185,6 +185,18 @@ with st.container():
         There are over 45000 spider spieces in the world and 7000 out of those are in North American Countries. 
         """)
         
+        
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/cdc_overdoserates.PNG")
+
+    with text_col:
+        st.markdown("[Overdose Death Rates Involving Opiods between 1999-2019]()")
+        st.write("""
+        Overdose death rates due to Synthetic Opioids has gone up by 38 times between 1999 and 2019. 
+        """)
+        
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
