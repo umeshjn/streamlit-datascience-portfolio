@@ -177,6 +177,17 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
+        st.image("images/spiders_northamerica.PNG")
+
+    with text_col:
+        st.markdown("[Spider Species Identified in North America]()")
+        st.write("""
+        There are over 45000 spider spieces in the world and 7000 out of those are in North American Countries. 
+        """)
+        
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
         st.image("images/GunViolence.png")
 
     with text_col:
