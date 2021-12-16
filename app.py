@@ -166,6 +166,17 @@ st.markdown("""
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
+        st.image("images/nyscancerviz.PNG")
+
+    with text_col:
+        st.markdown("[New York State Cancer Death Rates 1976-2018]()")
+        st.write("""
+        Humanity has been fighting a brave war with the cancer and the progress made since last 4-5 decades shows that there is lot of optimism. 
+        """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
         st.image("images/drugoverdosedeathrates.PNG")
 
     with text_col:
