@@ -310,3 +310,17 @@ with st.container():
         st.write("""
         Covid-19 the virus which originated in China and spread across the world. The health crisis leading to economic crisis. Killing the most vulnerable population and impacting the lives of millions.
         """)
+
+        
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/deathrates2.PNG")
+
+    with text_col:
+        st.markdown("[Cancer in NewYork State 1976-2018](https://www.dataasana.com/posts/2020-09-24-newyorkstate-cancer/)")
+        st.write("""
+        Humanity has been fighting the war with cancer for long time and the numbers of New York State shows that there is great progress. All thanks to the advancements in the field of science and technology which has made this possible.
+        """)
+        
+        
