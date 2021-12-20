@@ -188,6 +188,17 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
+        st.image("images/seattlecrimes.PNG")
+
+    with text_col:
+        st.markdown("[Seattle Crimes Numbers Reported between 2008 and 2017]()")
+        st.write("""
+        Crimes in the cities are the biggest challenges for the law and order authorities. This dashboard view gives a glimpse of Seattle crimes numbers between 2008 and 2017. 
+        """)
+        
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
         st.image("images/spiders_northamerica.PNG")
 
     with text_col:
