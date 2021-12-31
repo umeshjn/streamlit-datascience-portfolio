@@ -3,9 +3,10 @@ import streamlit as st
 st.markdown("# Umesh Narayanappa")
 st.markdown("### Senior Data Analyst")
 st.markdown("""
-    I am a Data Science and Analytics Enthusiast, passionate about adding value to the business through data insights. 
-    I have experience of working through entire life cycle of data science project starting with data collection, 
-    data cleaning, data analysis, data visualization and model building.
+    I am a Data Science and Analytics Enthusiast, with experience of working through entire life cycle of data science projects starting with data collection, 
+    data cleaning, data analysis, data visualization and to some extent even in model building. I am keen on helping the businesses to understand the data existing
+    in their enterprise applications, build data pipelines to collect and wrangle the data from multiple sources to structure the data to answer their queries and
+    also build visualizations/dashboards for presenting the findings to both technical and non technical audience.
 """)
 
 
@@ -298,7 +299,17 @@ st.markdown("""
     are interesting to me. This is kind of learning for me.
 """)
 
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/seattlecrimesstory.PNG")
 
+    with text_col:
+        st.markdown("[Seattle Crimes 2011-2017](https://www.dataasana.com/posts/2021-01-12-seattle-crimes/)")
+        st.write("""
+        Crimes is cities is one of the biggest problems for any law enforcements agencies.
+        """)
+        
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
