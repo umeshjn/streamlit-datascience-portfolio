@@ -167,6 +167,17 @@ st.markdown("""
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
+        st.image("images/Covid19 Case USA.PNG")
+
+    with text_col:
+        st.markdown("[Covid-19 USA Cases 2020 to 2021](https://public.tableau.com/app/profile/umeshjn/viz/Covid-19CasesUSA/Covid19CaseUSA)")
+        st.write("""
+        Fight against Covid19 is into third year almost and the numbers are increasing against due to the new variant.
+        """)
+        
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
         st.image("images/nyscancerviz.PNG")
 
     with text_col:
