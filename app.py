@@ -21,149 +21,24 @@ st.markdown("""
     * AWS - Machine Learning Specialist
 """)
 
-
-
-st.markdown("### R Shiny Apps - Cloud Hosted")
-st.markdown("""
-    Shiny is an R package that makes it easy to build interactive web apps straight from R. 
-    You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. 
-    Below are some of the apps which I have developed completely using R Shiny and different R packages.
-""")
-
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/Covid19USAStatesandCounties.PNG")
-
-    with text_col:
-        st.markdown("[Covid-19 Tracker by States in USA](https://covid19tracking.shinyapps.io/Covid19USAStatesandCounties/)")
-        st.write("""Application lets you to interactively explore the Coronavirus cases and deaths in every county of the selected state.
-            """)
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/Covid19_USA_Numbers.PNG")
-
-    with text_col:
-        st.markdown("[Covid-19 Tracker by States in USA](https://covid19tracking.shinyapps.io/Covid19USAStatesandCounties/)")
-        st.write("""This application lets you to view the Covid Cases and Deaths at country level through visuals.
-            """)
-
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/ChicagoCrime2016.PNG")
-
-    with text_col:
-        st.markdown("[Crimes in Chicago 2016](https://umeshjn.shinyapps.io/ChicagoCrimes2016/)")
-        st.write("""
-        Crimes in Chicago was one of the hottest topics during the 2016 Presidential Elections. 
-        Here is a dashboard built using the open dataset provided by the government agencies.
-        """)
-
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/OnlineTutoring.PNG")
-
-    with text_col:
-        st.markdown("[Online Tutoring Sales Lead Monthly Dashboard](https://umeshjn.shinyapps.io/RDashboard/)")
-        st.write("""
-        Online tutoring is a amazing business in today's world generating billions of revenues. 
-        This dashboard uses a dummy data for online sales of tutoring based on the leads.
-        """)
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/AustralianPopulation.PNG")
-
-    with text_col:
-        st.markdown("[Australian Population](https://umeshjn.shinyapps.io/AustralianPopulation-2016/)")
-        st.write("""
-        Australia is the largest country in Oceania and the world's sixth-largest country by total area.
-        This application lets you explore the population of the continent among different age groups. 
-        This data is from Australian Bureau of Satistics.
-        """)
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/USConsumerFinancialComplaints.PNG")
-
-    with text_col:
-        st.markdown("[US Consumer Financial Complaints](https://umeshjn.shinyapps.io/usconsumerfinancialcomplaints/)")
-        st.write("""
-        Consumer complaints across different financial products is recorded and tracked by 
-        the government agencies for making sure the financial firms provide the right service to the customers. 
-        This dashboard gives you sneak peak into those complaints.
-        """)
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/IndianStocks.PNG")
-
-    with text_col:
-        st.markdown("[Coffee Can Investing - Indian Stocks](https://umeshjn.shinyapps.io/CoffeeCanInvesting/)")
-        st.write("""
-        Compound interest is the eight wonder of the world. Investing in equities is one of the best options for common people 
-        to help them grow their wealth. This application helps someone who wants to know how their wealth would have grown
-        by investing in Indian stocks.
-        """)
-
-
-st.markdown("### Python Based Data Apps")
-st.markdown("""
-    Streamlit is one of the best frameworks available for development of the python data applications. 
-    Below is some of the apps which are developed using Python Streamlit package.
-""")
-
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/CoffeeCan.PNG")
-
-    with text_col:
-        st.markdown("[Coffee Can Investing](https://share.streamlit.io/umeshjn/streamlit-coffeecaninvesting/main/app.py)")
-        st.write("""
-         … the coffee can portfolio is designed to protect you against yourself—the obsession with checking stock prices
-        """)
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/dailycovid.PNG")
-
-    with text_col:
-        st.markdown("[Daily Covid Numbers in USA](https://share.streamlit.io/umeshjn/streamlit-usa-dailycovid19/main/app.py)")
-        st.write("""
-         Covid-19 - the virus which brough the all powerful humans to their knees since last two years, it has wrecked havoc like never seen before and devasted the individuals, families, states, countries and the world as a whole.
-        """)
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/compounding.PNG")
-
-    with text_col:
-        st.markdown("[Power of Compounding](https://share.streamlit.io/umeshjn/streamlit-powerofcompounding/main/app.py)")
-        st.write("""
-        Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
-        """)    
-
 st.markdown("### Data Visualizations (Tableau & R)")
 st.markdown("""
-    Tableau helps is presenting the data to the end customers through data visualizations and dashboards.
-    Working using tableau is amazing experience and the ability it brings to the table for data presentation through visualizations is very nice.
-    Tableau has changed the field of Data Visualization Dashboarding since last many years.
+    Data Visualization is a powerful technique for presenting thousands and millions of rows of data in visually insightful way to both technical and non technical audience.
 """)
 
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/coviddeaths.png")
+
+    with text_col:
+        st.markdown("[Covid Deaths in USA(2020 and 2021)](https://public.tableau.com/app/profile/umeshjn/viz/CovidDeathsinUSA2020and2021/CovidDeathsUSA2020and2021")
+        st.write("""
+        So many deaths due to Covid and we have ended up treating them as just statictics which is very sad and painful if you really think about all the people who have lost their loved ones.
+        """)
+
+        
 with st.container():
     image_col, text_col = st.columns((1,2))
     with image_col:
@@ -301,6 +176,140 @@ with st.container():
         View of the African Population in 2021.
         """)
 
+
+st.markdown("### R Shiny Apps - Cloud Hosted")
+st.markdown("""
+    Shiny is an R package that makes it easy to build interactive web apps straight from R. 
+    You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. 
+    Below are some of the apps which I have developed completely using R Shiny and different R packages.
+""")
+
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/Covid19USAStatesandCounties.PNG")
+
+    with text_col:
+        st.markdown("[Covid-19 Tracker by States in USA](https://covid19tracking.shinyapps.io/Covid19USAStatesandCounties/)")
+        st.write("""Application lets you to interactively explore the Coronavirus cases and deaths in every county of the selected state.
+            """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/Covid19_USA_Numbers.PNG")
+
+    with text_col:
+        st.markdown("[Covid-19 Tracker by States in USA](https://covid19tracking.shinyapps.io/Covid19USAStatesandCounties/)")
+        st.write("""This application lets you to view the Covid Cases and Deaths at country level through visuals.
+            """)
+
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/ChicagoCrime2016.PNG")
+
+    with text_col:
+        st.markdown("[Crimes in Chicago 2016](https://umeshjn.shinyapps.io/ChicagoCrimes2016/)")
+        st.write("""
+        Crimes in Chicago was one of the hottest topics during the 2016 Presidential Elections. 
+        Here is a dashboard built using the open dataset provided by the government agencies.
+        """)
+
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/OnlineTutoring.PNG")
+
+    with text_col:
+        st.markdown("[Online Tutoring Sales Lead Monthly Dashboard](https://umeshjn.shinyapps.io/RDashboard/)")
+        st.write("""
+        Online tutoring is a amazing business in today's world generating billions of revenues. 
+        This dashboard uses a dummy data for online sales of tutoring based on the leads.
+        """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/AustralianPopulation.PNG")
+
+    with text_col:
+        st.markdown("[Australian Population](https://umeshjn.shinyapps.io/AustralianPopulation-2016/)")
+        st.write("""
+        Australia is the largest country in Oceania and the world's sixth-largest country by total area.
+        This application lets you explore the population of the continent among different age groups. 
+        This data is from Australian Bureau of Satistics.
+        """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/USConsumerFinancialComplaints.PNG")
+
+    with text_col:
+        st.markdown("[US Consumer Financial Complaints](https://umeshjn.shinyapps.io/usconsumerfinancialcomplaints/)")
+        st.write("""
+        Consumer complaints across different financial products is recorded and tracked by 
+        the government agencies for making sure the financial firms provide the right service to the customers. 
+        This dashboard gives you sneak peak into those complaints.
+        """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/IndianStocks.PNG")
+
+    with text_col:
+        st.markdown("[Coffee Can Investing - Indian Stocks](https://umeshjn.shinyapps.io/CoffeeCanInvesting/)")
+        st.write("""
+        Compound interest is the eight wonder of the world. Investing in equities is one of the best options for common people 
+        to help them grow their wealth. This application helps someone who wants to know how their wealth would have grown
+        by investing in Indian stocks.
+        """)
+
+
+st.markdown("### Python Based Data Apps")
+st.markdown("""
+    Streamlit is one of the best frameworks available for development of the python data applications. 
+    Below is some of the apps which are developed using Python Streamlit package.
+""")
+
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/CoffeeCan.PNG")
+
+    with text_col:
+        st.markdown("[Coffee Can Investing](https://share.streamlit.io/umeshjn/streamlit-coffeecaninvesting/main/app.py)")
+        st.write("""
+         … the coffee can portfolio is designed to protect you against yourself—the obsession with checking stock prices
+        """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/dailycovid.PNG")
+
+    with text_col:
+        st.markdown("[Daily Covid Numbers in USA](https://share.streamlit.io/umeshjn/streamlit-usa-dailycovid19/main/app.py)")
+        st.write("""
+         Covid-19 - the virus which brough the all powerful humans to their knees since last two years, it has wrecked havoc like never seen before and devasted the individuals, families, states, countries and the world as a whole.
+        """)
+
+with st.container():
+    image_col, text_col = st.columns((1,2))
+    with image_col:
+        st.image("images/compounding.PNG")
+
+    with text_col:
+        st.markdown("[Power of Compounding](https://share.streamlit.io/umeshjn/streamlit-powerofcompounding/main/app.py)")
+        st.write("""
+        Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
+        """)    
 
 st.markdown("### Data Stories Blog")
 st.markdown("[Dataasana](https://www.dataasana.com/)")
