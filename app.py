@@ -33,7 +33,7 @@ with st.container():
         st.image("images/coviddeaths.png")
 
     with text_col:
-        st.markdown("[Covid Deaths in USA(2020 and 2021)](https://public.tableau.com/app/profile/umeshjn/viz/CovidDeathsinUSA2020and2021/CovidDeathsUSA2020and2021")
+        st.markdown("[Covid Deaths in USA(2020 and 2021)](https://public.tableau.com/app/profile/umeshjn/viz/CovidDeathsinUSA2020and2021/CovidDeathsUSA2020and2021)")
         st.write("""
         So many deaths due to Covid and we have ended up treating them as just statictics which is very sad and painful if you really think about all the people who have lost their loved ones.
         """)
