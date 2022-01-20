@@ -164,6 +164,7 @@ with st.container():
 
 
 st.markdown("### R Shiny Apps - Cloud Hosted")
+st.markdown("***Apps with maps has issue because the highcharter package used for creating the visualizations is giving trouble for maps***")
 st.markdown("""
     Shiny is an R package that makes it easy to build interactive web apps straight from R. 
     You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. 
