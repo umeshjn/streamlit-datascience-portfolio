@@ -12,12 +12,13 @@ st.markdown("""
 
 st.markdown("### Certifications")
 st.markdown("""
-    Below mentioned certifications helps me to keep myself updated with the skills required :
+    ***
 """)
 st.markdown("""
-    * Udacity - Data Analyst Nano Degree Certified
-    * Alteryx - Designer Core Certified    
-    * DataCamp - Data Analyst Certified
+    * Udacity - Data Analyst Nano Degree 
+    * Alteryx - Designer Core 
+    * Tableau - Desktop Specialist 
+    * DataCamp - Data Analyst 
     * AWS - Machine Learning Specialist
 """)
 
