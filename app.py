@@ -11,9 +11,7 @@ st.markdown("""
 
 
 st.markdown("### Certifications")
-st.markdown("""
-    ***
-""")
+st.markdown("***")
 st.markdown("""
     * Udacity - Data Analyst Nano Degree 
     * Alteryx - Designer Core 
@@ -141,18 +139,6 @@ with st.container():
         This dashboard gives you a view of bicycle hiring in Chicago from 2014 to 2017.
         """)
 
-
-
-with st.container():
-    image_col, text_col = st.columns((1,2))
-    with image_col:
-        st.image("images/NobelPrizes.png")
-
-    with text_col:
-        st.markdown("[Nobel Laureates 1901-2016](https://public.tableau.com/app/profile/umeshjn/viz/Nobel_15/NobelPrizes)")
-        st.write("""
-        This dashboard gives you a view of the Nobel Prizes from 1901 to 2016.
-        """)
 
 with st.container():
     image_col, text_col = st.columns((1,2))
