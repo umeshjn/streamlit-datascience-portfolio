@@ -11,7 +11,6 @@ st.markdown("""
 
 
 st.markdown("### Certifications")
-st.markdown("***")
 st.markdown("""
     * Udacity - Data Analyst Nano Degree 
     * Alteryx - Designer Core 
