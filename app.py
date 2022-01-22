@@ -210,8 +210,8 @@ with st.container():
         Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
         """)   
         st.image("images/compounding.PNG")
-         
- with col2:
+
+    with col2:
         st.markdown("[Indian Stocks Quarterly Results](https://share.streamlit.io/umeshjn/-streamlit-indians-stocks-quarterly-results/main)")
         st.write("""
          India is one of the fastest growing economies and for the next decade or so should be the top growing economy in the world. Its a great investing opportunity for everyone to make the most out of it specially for the Indian public who have missed out greatly the last 30-40 years of Indian growth story. This application lets you see the results of some of the well known companies in the country.
