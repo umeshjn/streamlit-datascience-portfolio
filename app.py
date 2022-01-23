@@ -102,16 +102,6 @@ with st.container():
         st.image("images/NyCityAirbnbLIsting.png")
 
 
-with st.container():
-    col1, col2 = st.columns((3,3))
-    with col1:
-        st.markdown("[African Population](https://public.tableau.com/app/profile/umeshjn/viz/AfricanPopulation2021/Dashboard1)")
-        st.write("""
-        View of the African Population in 2021.
-        """)
-        st.image("images/AfricanPopulation.png")
-
-
 st.markdown("### R Shiny Applications")
 st.markdown("***Apps with maps has issue because the highcharter package used for creating the visualizations is giving trouble for maps***")
 st.markdown("""
