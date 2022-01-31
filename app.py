@@ -102,6 +102,69 @@ with st.container():
         st.image("images/NyCityAirbnbLIsting.png")
 
 
+st.markdown("### Data Apps built using Python")
+st.markdown("""
+    Streamlit is one of the best frameworks available for development of the python data applications. 
+    Below is some of the apps which are developed using Python Streamlit package.
+""")
+
+
+with st.container():
+    col1, col2 = st.columns((3,3))
+    with col1:
+        st.markdown("[Coffee Can Investing](https://share.streamlit.io/umeshjn/streamlit-coffeecaninvesting/main/app.py)")
+        st.write("""
+         … the coffee can portfolio is designed to protect you against yourself—the obsession with checking stock prices
+        """)
+        st.image("images/CoffeeCan.PNG")
+
+    with col2:
+        st.markdown("[Daily Covid Numbers in USA](https://share.streamlit.io/umeshjn/streamlit-usa-dailycovid19/main/app.py)")
+        st.write("""
+         Covid-19 - the virus which brough the all powerful humans to their knees since last two years, it has wrecked havoc like never seen before and devasted the individuals, families, states, countries and the world as a whole.
+        """)
+        st.image("images/dailycovid.PNG")
+
+with st.container():
+    col1, col2 = st.columns((3,3))
+    with col1:
+        st.markdown("[Power of Compounding](https://share.streamlit.io/umeshjn/streamlit-powerofcompounding/main/app.py)")
+        st.write("""
+        Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
+        """)   
+        st.image("images/compounding.PNG")
+
+    with col2:
+        st.markdown("[Indian Stocks Quarterly Results](https://share.streamlit.io/umeshjn/-streamlit-indians-stocks-quarterly-results/main)")
+        st.write("""
+         India is one of the fastest growing economies and for the next decade or so should be the top growing economy in the world. Its a great investing opportunity for everyone to make the most out of it specially for the Indian public who have missed out greatly the last 30-40 years of Indian growth story. This application lets you see the results of some of the well known companies in the country.
+        """)
+        st.image("images/quarterly.PNG")
+
+
+st.markdown("### Python and Data (Jupyter Notebooks)")
+st.markdown("""
+    Jupyter Notebooks is a great tool for all the data science tasks from exploring, visualizing, model building to presenting the data stories to the target audience.
+""")
+
+
+with st.container():
+    col1, col2 = st.columns((3,3))
+    with col1:
+        st.markdown("[Exploring Baltimore City Salaries Dataset](https://github.com/umeshjn/jupyternotebooks/blob/f5663a4b0dfb98f19f1ccf3920f76651d4516313/Exploring%20Baltimore%20City%20Employee%20Salaries%20Data.ipynb)")
+        st.write("""
+            City administration is like running a huge company. Like any corporate, it requires lot of people and each of them will be paid salaries. This notebook explores the salaries dataset for the city of Baltimore.
+        """)
+        st.image("images/baltimoresalaries.PNG")
+
+    with col2:
+        st.markdown("[Exploring Baltimore City 911 Calls Dataset](https://github.com/umeshjn/jupyternotebooks/blob/f5663a4b0dfb98f19f1ccf3920f76651d4516313/Exploring%20Baltimore%20911%20Calls%20Data.ipynb)")
+        st.write("""
+         911 is a National Emergency services. This notebook explores the 911 calls dataset for the city of Baltimore. Will try to answer few queries based on the data available at hand - Is the community using the service for the intented use? How is the distribution of the calls across the various parameters?
+        """)
+        st.image("images/baltimore911calls.PNG")
+
+
 st.markdown("### R Shiny Applications")
 st.markdown("***Apps with maps has issue because the highcharter package used for creating the visualizations is giving trouble for maps***")
 st.markdown("""
@@ -169,52 +232,12 @@ with st.container():
         st.image("images/IndianStocks.PNG")
 
 
-st.markdown("### Python Based Data Apps")
-st.markdown("""
-    Streamlit is one of the best frameworks available for development of the python data applications. 
-    Below is some of the apps which are developed using Python Streamlit package.
-""")
-
-
-with st.container():
-    col1, col2 = st.columns((3,3))
-    with col1:
-        st.markdown("[Coffee Can Investing](https://share.streamlit.io/umeshjn/streamlit-coffeecaninvesting/main/app.py)")
-        st.write("""
-         … the coffee can portfolio is designed to protect you against yourself—the obsession with checking stock prices
-        """)
-        st.image("images/CoffeeCan.PNG")
-
-    with col2:
-        st.markdown("[Daily Covid Numbers in USA](https://share.streamlit.io/umeshjn/streamlit-usa-dailycovid19/main/app.py)")
-        st.write("""
-         Covid-19 - the virus which brough the all powerful humans to their knees since last two years, it has wrecked havoc like never seen before and devasted the individuals, families, states, countries and the world as a whole.
-        """)
-        st.image("images/dailycovid.PNG")
-
-with st.container():
-    col1, col2 = st.columns((3,3))
-    with col1:
-        st.markdown("[Power of Compounding](https://share.streamlit.io/umeshjn/streamlit-powerofcompounding/main/app.py)")
-        st.write("""
-        Albert Einstein once said that Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it..
-        """)   
-        st.image("images/compounding.PNG")
-
-    with col2:
-        st.markdown("[Indian Stocks Quarterly Results](https://share.streamlit.io/umeshjn/-streamlit-indians-stocks-quarterly-results/main)")
-        st.write("""
-         India is one of the fastest growing economies and for the next decade or so should be the top growing economy in the world. Its a great investing opportunity for everyone to make the most out of it specially for the Indian public who have missed out greatly the last 30-40 years of Indian growth story. This application lets you see the results of some of the well known companies in the country.
-        """)
-        st.image("images/quarterly.PNG")
-
-
-st.markdown("### Data Stories Blog")
+st.markdown("### Data Stories Blog - RMarkdown")
 st.markdown("[Dataasana](https://www.dataasana.com/)")
 st.markdown("""
     Ability to explore the data and tell the story hidden inside a table of data is very important skill for any data analyst.
     This blog which I have created helps me to learn that skill. Here I have written data stories based on some of the topics which
-    are interesting to me. This is kind of learning for me.
+    are interesting to me. 
 """)
 
 with st.container():
