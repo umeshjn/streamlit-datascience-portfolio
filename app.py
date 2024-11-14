@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown("# Umesh Narayanappa")
 st.markdown("### Senior Data Engineer")
 st.markdown("""
-    **I am a Data Engineering and Analytics Enthusiast, with experience of working through the entire life cycle of data science projects starting with data collection, data cleaning, data analysis, data visualization and to some extent even in model building. I am experienced with the latest tools and technologies for helping the businesses to understand their data, build data pipelines to collect the data from multiple sources to clean and structure the data to answer strategic queries as well as build dashboards for presenting the findings to both technical and non-technical audiences.**
+    **I'm a passionate Data Engineering and Analytics professional with hands-on experience across the full lifecycle of data science projects. From data collection and cleaning to analysis, visualization, and even model building, I work to turn raw data into actionable insights. Proficient in leveraging the latest tools and technologies, I help businesses understand and harness their data by building efficient data pipelines that gather, clean, and structure information from diverse sources. I also design intuitive dashboards to present findings to both technical and non-technical stakeholders, enabling data-driven decision-making at all levels.**
 """)
 
 
